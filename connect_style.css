@@ -5,15 +5,17 @@ body {
 	font-size: 15px;
 	margin: 0px;
 	padding: 0px;
-	background: white;
+	background: #F2FAFA;
 }
 .submit_button {
 	font-size: 16px;
 }
 .wrapper {
 	margin: 0 auto;
-	width: 100%;
-	height: 500px;
+	width: 1024px;
+	height: 900px;
+	background: black;
+	background-image:url('images/cool_brown_06.png');
 }
 .main_header {
 	margin-bottom: 0px;
@@ -28,7 +30,6 @@ div.nav_bar {
 	background: #4682B4;				/* SteelBlue */
 	border-top: solid 1px #000066;  	/* Darkest Blue */
 	border-bottom: solid 1px #000066;
-	border-right: solid 1px #000066;
 }
 .nav_bar ul {
 	list-style-type: none;
@@ -91,29 +92,43 @@ li.end_nav{
     padding-left: 20px;
     text-align: center;
 	margin: 0 auto;
+	color: #FFFACD;
+}
+.rules {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: tan;
+}
+.rules li{
+	text-align: left;
 }
 .playing_area {
 	text-align: center;
+	position: relative;
 	margin: 0 auto;
 	width: 900px;
 	height: 530px;
-	background: #4682B4;
-	background-image:url('images/background_fresh06.png');		
-	border: solid 1px;
+	background: transparent;
 	padding-left: 20px;
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
-#hover_display {
-	width: 150px;
-	height: 150px;
+.hover_display_box {
+	width: 153px;
+	min-height: 30px;
+	max-height: 58px;
 	opacity: 0.7;
 	background: black;
 	color: white;
 	display: none;
-/*	position: relative;
-	top: 300px;
-	left: 300px;*/
+	position: absolute;
+	border-radius: 10px;
+	top: 50px;
+	left: 50px;
+	z-index: 750;
+	padding: 2% 5px;		/* This is for vertically aligining text */
 }
 .hex_grid {
 	margin-left: 10px;
@@ -132,7 +147,7 @@ li.end_nav{
 .hex {
 	position: absolute;
 }
-.hex_text{
+.hex_text {
 	position: absolute;
 	z-index: 1000;
 	text-align: center;
@@ -140,101 +155,100 @@ li.end_nav{
 	margin-left: 2px;
 	padding-left: 5px;
 	padding-right: 3px;
+	padding-top: 8px;
 	width: 48px;
-	height: 32px;
+	height: 24px;
 	font-size: 13px;
 	overflow: hidden;
 	font-weight: normal;
 	background: transparent;
 	vertical-align: middle;
 	word-wrap:break-word;
+/*	color: white;*/
 }
-.hex_text:hover {
-	background: #F0F8FF;
-}
-	.column2 {
+	.c2 {
 		left: 0px;
 	}
-.column3 {
+.c3 {
 	left: 29px;
 }
-	.column4 {
+	.c4 {
 		left: 58px;
 	}
-.column5 {
+.c5 {
 	left: 87px;
 }
-	.column6 {
+	.c6 {
 		left: 116px;
 	}
-.column7 {
+.c7 {
 	left: 145px;
 }
-	.column8 {
+	.c8 {
 		left: 174px;
 	}
-.column9 {
+.c9 {
 	left: 203px;
 }
-	.column10 {
+	.c10 {
 		left: 232px;
 	}
-.column11 {
+.c11 {
 	left: 261px;
 }
-	.column12 {
+	.c12 {
 		left: 290px;
 	}
-.column13 {
+.c13 {
 	left: 319px;
 }
-	.column14 {
+	.c14 {
 		left: 348px;
 	}
-.column15 {
+.c15 {
 	left: 377px;
 }
-	.column16 {
+	.c16 {
 		left: 406px;
 	}
-.column17 {
+.c17 {
 	left: 435px;
 }
-	.column18 {
+	.c18 {
 		left: 464px;
 	}
 
-.row1 {
+.r1 {
 	top: 0px;
 }
-.row2 {
+.r2 {
 	top: 50px;
 }
-.row3 {
+.r3 {
 	top: 100px;
 }
-.row4 {
+.r4 {
 	top: 150px;
 }
-.row5 {
+.r5 {
 	top: 200px;
 }
-.row6 {
+.r6 {
 	top: 250px;
 }
-.row7 {
+.r7 {
 	top: 300px;
 }
-.row8 {
+.r8 {
 	top: 350px;
 }
-.row9 {
+.r9 {
 	top: 400px;
 }
-.row10 {
+.r10 {
 	top: 450px;
 }
-.row11 {
+.r11 {
 	top: 500px;
 }
 #new_game {
@@ -243,6 +257,7 @@ li.end_nav{
 }
 .interface {
 	float: left;
+	color: #FFFACD;
 }
 .home_text {
 	display: block;
@@ -280,12 +295,19 @@ div form textarea {
 	background-image:url('images/nexgrid_tile12.jpg');	
 	height: 1100px;
 }
+.about_wrapper {
+	height: 1100px;
+}
+.about_head {
+	color: #FFFACD;
+}
 .about_content {
 	width: 95%;
 	margin: 0 auto;
 	border: solid 1px;
 	padding: 10px;
 	background: white;
+	background: rgb(240,240,240);
 	margin-top: 20px;
 }
 /* End About Page */
@@ -293,14 +315,18 @@ div form textarea {
 /* Start Node Page */
 .node_body {
 	height: 700px;
+	background: #FFFACD;
+	background: #F2F2E6;
 }
 .node_header {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	color: #FFFACD;
 }
 .header_note {
 	margin-top: 0px;
 	padding-top: 0px;
+	color: tan;
 }
 #search_display {
 	margin: 0 auto;
@@ -309,6 +335,7 @@ div form textarea {
 	height: 100px;
 	border: solid 1px;
 	overflow: scroll;
+	background: white;
 }
 .node_search {
 	width: 306px;
@@ -321,12 +348,14 @@ div form textarea {
 	margin: 0 auto;
 	width: 696px;
 	height: 200px;
-	border: solid 1px;
+	border: solid 1px black;
 	overflow: scroll;
 	margin-top: 15px;
+	background: white;
 }
 #connect_list {
 	text-align: left;
+	color: black;
 }
 #node_name {
 	background: #ADD8E6;
@@ -334,6 +363,7 @@ div form textarea {
 .labels {
 	display: block;
 	padding-top: 15px;
+	color: #FFFACD;
 }
 .blocktext {
 	display: block;
@@ -538,6 +568,12 @@ div form textarea {
 /* Start Maze Page */
 .maze_body {
 	height: 750px;
+	background: #FFFACD;
+	background-image:url('images/MyTexture30.jpg');
+	background-image:url('images/background_fresh06.png');
+}
+.maze_header {
+	color: #FFFACD;;
 }
 .intro_text {
 	margin: 0 auto;
@@ -545,12 +581,14 @@ div form textarea {
 	width: 800px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	color: tan;
 }
 .intro_text2 {
 	margin: 0 auto;
 	text-align: left;
 	width: 800px;
 	padding-bottom: 15px;
+	color: tan;
 }
 .maze_holder {
 	text-align: center;
@@ -560,6 +598,7 @@ div form textarea {
 	width: 800px;
 	height: 470px;
 	background-image:url('images/MyTexture30.jpg');
+	background: transparent;
 	padding-top: 30px;
 }
 .maze_grid {

@@ -61,7 +61,7 @@ session_start();
 
 		<form id="node_box" class="admin_add" action="process.php" method="post">
 			<input type="hidden" name="action" value="node_view">			
-			<label><b>Search:</b></label>
+			<label class="labels">Search:</label>
 			<input type="text" class="blocktext light_blue" name="node" autocomplete="off"/>
 			<div id="search_display">
 				<!-- node names go here -->

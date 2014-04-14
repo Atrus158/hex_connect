@@ -15,7 +15,7 @@ session_start();
 		include('nav_bar.php');
 	?>
 	<div class="main_content">
-		<h2  class="main_header">The Maze</h2>
+		<h2  class="main_header maze_header">The Maze</h2>
 		<p class="intro_text">The program for creating the connection game is based on a maze algorithm. 
 			As it builds the maze, it adds nodes to the maze's path, basically layering the nodes on top of the maze's path.
 			But while there should always be only one way through the underlying maze, there may be many ways across the connection grid,
@@ -33,8 +33,8 @@ session_start();
 				<img id="1"
 				<?php
 					if (!empty($_SESSION['hex'][1])) {
-						echo 'src="images/y_' . $_SESSION['hex'][1] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][1] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -45,8 +45,8 @@ session_start();
 				<img id="2"
 				<?php
 					if (!empty($_SESSION['hex'][2])) {
-						echo 'src="images/y_' . $_SESSION['hex'][2] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][2] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -57,8 +57,8 @@ session_start();
 				<img id="3"
 				<?php
 					if (!empty($_SESSION['hex'][3])) {
-						echo 'src="images/y_' . $_SESSION['hex'][3] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][3] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -69,8 +69,8 @@ session_start();
 				<img id="4"
 				<?php
 					if (!empty($_SESSION['hex'][4])) {
-						echo 'src="images/y_' . $_SESSION['hex'][4] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][4] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -81,8 +81,8 @@ session_start();
 				<img id="5"
 				<?php
 					if (!empty($_SESSION['hex'][5])) {
-						echo 'src="images/y_' . $_SESSION['hex'][5] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][5] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -94,8 +94,8 @@ session_start();
 				<img id="6"
 				<?php
 					if (!empty($_SESSION['hex'][6])) {
-						echo 'src="images/y_' . $_SESSION['hex'][6] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][6] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -106,8 +106,8 @@ session_start();
 				<img id="7"
 				<?php
 					if (!empty($_SESSION['hex'][7])) {
-						echo 'src="images/y_' . $_SESSION['hex'][7] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][7] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -118,8 +118,8 @@ session_start();
 				<img id="8"
 				<?php
 					if (!empty($_SESSION['hex'][8])) {
-						echo 'src="images/y_' . $_SESSION['hex'][8] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][8] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -130,8 +130,8 @@ session_start();
 				<img id="9"
 				<?php
 					if (!empty($_SESSION['hex'][9])) {
-						echo 'src="images/y_' . $_SESSION['hex'][9] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][9] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -142,8 +142,8 @@ session_start();
 				<img id="10"
 				<?php
 					if (!empty($_SESSION['hex'][10])) {
-						echo 'src="images/y_' . $_SESSION['hex'][10] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][10] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -154,8 +154,8 @@ session_start();
 				<img id="11"
 				<?php
 					if (!empty($_SESSION['hex'][11])) {
-						echo 'src="images/y_' . $_SESSION['hex'][11] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][11] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -167,8 +167,8 @@ session_start();
 				<img id="12"
 				<?php
 					if (!empty($_SESSION['hex'][12])) {
-						echo 'src="images/y_' . $_SESSION['hex'][12] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][12] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -179,8 +179,8 @@ session_start();
 				<img id="13"
 				<?php
 					if (!empty($_SESSION['hex'][13])) {
-						echo 'src="images/y_' . $_SESSION['hex'][13] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][13] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -191,8 +191,8 @@ session_start();
 				<img id="14"
 				<?php
 					if (!empty($_SESSION['hex'][14])) {
-						echo 'src="images/y_' . $_SESSION['hex'][14] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][14] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -203,8 +203,8 @@ session_start();
 				<img id="15" 
 				<?php
 					if (!empty($_SESSION['hex'][15])) {
-						echo 'src="images/y_' . $_SESSION['hex'][15] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][15] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -215,8 +215,8 @@ session_start();
 				<img id="16"
 				<?php
 					if (!empty($_SESSION['hex'][16])) {
-						echo 'src="images/y_' . $_SESSION['hex'][16] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][16] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -227,8 +227,8 @@ session_start();
 				<img id="17" 
 				<?php
 					if (!empty($_SESSION['hex'][17])) {
-						echo 'src="images/y_' . $_SESSION['hex'][17] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][17] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -239,8 +239,8 @@ session_start();
 				<img id="18"
 				<?php
 					if (!empty($_SESSION['hex'][18])) {
-						echo 'src="images/y_' . $_SESSION['hex'][18] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][18] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -252,8 +252,8 @@ session_start();
 				<img id="19"
 				<?php
 					if (!empty($_SESSION['hex'][19])) {
-						echo 'src="images/y_' . $_SESSION['hex'][19] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][19] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -264,8 +264,8 @@ session_start();
 				<img id="20"
 				<?php
 					if (!empty($_SESSION['hex'][20])) {
-						echo 'src="images/y_' . $_SESSION['hex'][20] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][20] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -276,8 +276,8 @@ session_start();
 				<img id="21"
 				<?php
 					if (!empty($_SESSION['hex'][21])) {
-						echo 'src="images/y_' . $_SESSION['hex'][21] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][21] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -288,8 +288,8 @@ session_start();
 				<img id="22"
 				<?php
 					if (!empty($_SESSION['hex'][22])) {
-						echo 'src="images/y_' . $_SESSION['hex'][22] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][22] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -300,8 +300,8 @@ session_start();
 				<img id="23"
 				<?php
 					if (!empty($_SESSION['hex'][23])) {
-						echo 'src="images/y_' . $_SESSION['hex'][23] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][23] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -312,8 +312,8 @@ session_start();
 				<img id="24"
 				<?php
 					if (!empty($_SESSION['hex'][24])) {
-						echo 'src="images/y_' . $_SESSION['hex'][24] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][24] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -324,8 +324,8 @@ session_start();
 				<img id="25"
 				<?php
 					if (!empty($_SESSION['hex'][25])) {
-						echo 'src="images/y_' . $_SESSION['hex'][25] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][25] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -336,8 +336,8 @@ session_start();
 				<img id="26"
 				<?php
 					if (!empty($_SESSION['hex'][26])) {
-						echo 'src="images/y_' . $_SESSION['hex'][26] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][26] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -349,8 +349,8 @@ session_start();
 				<img id="27" 
 				<?php
 					if (!empty($_SESSION['hex'][27])) {
-						echo 'src="images/y_' . $_SESSION['hex'][27] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][27] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -361,8 +361,8 @@ session_start();
 				<img id="28"
 				<?php
 					if (!empty($_SESSION['hex'][28])) {
-						echo 'src="images/y_' . $_SESSION['hex'][28] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][28] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -373,8 +373,8 @@ session_start();
 				<img id="29"
 				<?php
 					if (!empty($_SESSION['hex'][29])) {
-						echo 'src="images/y_' . $_SESSION['hex'][29] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][29] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -385,8 +385,8 @@ session_start();
 				<img id="30"
 				<?php
 					if (!empty($_SESSION['hex'][30])) {
-						echo 'src="images/y_' . $_SESSION['hex'][30] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][30] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -397,8 +397,8 @@ session_start();
 				<img id="31"
 				<?php
 					if (!empty($_SESSION['hex'][31])) {
-						echo 'src="images/y_' . $_SESSION['hex'][31] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][31] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -409,8 +409,8 @@ session_start();
 				<img id="32"
 				<?php
 					if (!empty($_SESSION['hex'][32])) {
-						echo 'src="images/y_' . $_SESSION['hex'][32] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][32] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -421,8 +421,8 @@ session_start();
 				<img id="33"
 				<?php
 					if (!empty($_SESSION['hex'][33])) {
-						echo 'src="images/y_' . $_SESSION['hex'][33] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][33] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -433,8 +433,8 @@ session_start();
 				<img id="34"
 				<?php
 					if (!empty($_SESSION['hex'][34])) {
-						echo 'src="images/y_' . $_SESSION['hex'][34] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][34] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -445,8 +445,8 @@ session_start();
 				<img id="35"
 				<?php
 					if (!empty($_SESSION['hex'][35])) {
-						echo 'src="images/y_' . $_SESSION['hex'][35] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][35] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -458,8 +458,8 @@ session_start();
 				<img id="36"
 				<?php
 					if (!empty($_SESSION['hex'][36])) {
-						echo 'src="images/y_' . $_SESSION['hex'][36] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][36] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -470,8 +470,8 @@ session_start();
 				<img id="37"
 				<?php
 					if (!empty($_SESSION['hex'][37])) {
-						echo 'src="images/y_' . $_SESSION['hex'][37] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][37] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -482,8 +482,8 @@ session_start();
 				<img id="38"
 				<?php
 					if (!empty($_SESSION['hex'][38])) {
-						echo 'src="images/y_' . $_SESSION['hex'][38] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][38] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -494,8 +494,8 @@ session_start();
 				<img id="39"
 				<?php
 					if (!empty($_SESSION['hex'][39])) {
-						echo 'src="images/y_' . $_SESSION['hex'][39] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][39] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -506,8 +506,8 @@ session_start();
 				<img id="40"
 				<?php
 					if (!empty($_SESSION['hex'][40])) {
-						echo 'src="images/y_' . $_SESSION['hex'][40] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][40] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -518,8 +518,8 @@ session_start();
 				<img id="41"
 				<?php
 					if (!empty($_SESSION['hex'][41])) {
-						echo 'src="images/y_' . $_SESSION['hex'][41] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][41] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -530,8 +530,8 @@ session_start();
 				<img id="42"
 				<?php
 					if (!empty($_SESSION['hex'][42])) {
-						echo 'src="images/y_' . $_SESSION['hex'][42] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][42] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -542,8 +542,8 @@ session_start();
 				<img id="43"
 				<?php
 					if (!empty($_SESSION['hex'][43])) {
-						echo 'src="images/y_' . $_SESSION['hex'][43] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][43] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -555,8 +555,8 @@ session_start();
 				<img id="44"
 				<?php
 					if (!empty($_SESSION['hex'][44])) {
-						echo 'src="images/y_' . $_SESSION['hex'][44] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][44] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -567,8 +567,8 @@ session_start();
 				<img id="45"
 				<?php
 					if (!empty($_SESSION['hex'][45])) {
-						echo 'src="images/y_' . $_SESSION['hex'][45] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][45] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -579,8 +579,8 @@ session_start();
 				<img id="46" 
 				<?php
 					if (!empty($_SESSION['hex'][46])) {
-						echo 'src="images/y_' . $_SESSION['hex'][46] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][46] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -591,8 +591,8 @@ session_start();
 				<img id="47"
 				<?php
 					if (!empty($_SESSION['hex'][47])) {
-						echo 'src="images/y_' . $_SESSION['hex'][47] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][47] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -603,8 +603,8 @@ session_start();
 				<img id="48"
 				<?php
 					if (!empty($_SESSION['hex'][48])) {
-						echo 'src="images/y_' . $_SESSION['hex'][48] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][48] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -615,8 +615,8 @@ session_start();
 				<img id="49"
 				<?php
 					if (!empty($_SESSION['hex'][49])) {
-						echo 'src="images/y_' . $_SESSION['hex'][49] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][49] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -627,8 +627,8 @@ session_start();
 				<img id="50"
 				<?php
 					if (!empty($_SESSION['hex'][50])) {
-						echo 'src="images/y_' . $_SESSION['hex'][50] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][50] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -640,8 +640,8 @@ session_start();
 				<img id="51"
 				<?php
 					if (!empty($_SESSION['hex'][51])) {
-						echo 'src="images/y_' . $_SESSION['hex'][51] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][51] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -652,8 +652,8 @@ session_start();
 				<img id="52"
 				<?php
 					if (!empty($_SESSION['hex'][52])) {
-						echo 'src="images/y_' . $_SESSION['hex'][52] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][52] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -664,8 +664,8 @@ session_start();
 				<img id="53"
 				<?php
 					if (!empty($_SESSION['hex'][53])) {
-						echo 'src="images/y_' . $_SESSION['hex'][53] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][53] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -676,8 +676,8 @@ session_start();
 				<img id="54"
 				<?php
 					if (!empty($_SESSION['hex'][54])) {
-						echo 'src="images/y_' . $_SESSION['hex'][54] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][54] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -688,8 +688,8 @@ session_start();
 				<img id="55"
 				<?php
 					if (!empty($_SESSION['hex'][55])) {
-						echo 'src="images/y_' . $_SESSION['hex'][55] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][55] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -700,8 +700,8 @@ session_start();
 				<img id="56"
 				<?php
 					if (!empty($_SESSION['hex'][56])) {
-						echo 'src="images/y_' . $_SESSION['hex'][56] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][56] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -713,8 +713,8 @@ session_start();
 				<img id="57"
 				<?php
 					if (!empty($_SESSION['hex'][57])) {
-						echo 'src="images/y_' . $_SESSION['hex'][57] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][57] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -725,8 +725,8 @@ session_start();
 				<img id="58"
 				<?php
 					if (!empty($_SESSION['hex'][58])) {
-						echo 'src="images/y_' . $_SESSION['hex'][58] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][58] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -737,8 +737,8 @@ session_start();
 				<img id="59"
 				<?php
 					if (!empty($_SESSION['hex'][59])) {
-						echo 'src="images/y_' . $_SESSION['hex'][59] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][59] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -749,8 +749,8 @@ session_start();
 				<img id="60"
 				<?php
 					if (!empty($_SESSION['hex'][60])) {
-						echo 'src="images/y_' . $_SESSION['hex'][60] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][60] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>
@@ -761,8 +761,8 @@ session_start();
 				<img id="61"
 				<?php
 					if (!empty($_SESSION['hex'][61])) {
-						echo 'src="images/y_' . $_SESSION['hex'][61] . '.png"';
-					} else { echo 'src="images/hex_green_50_by_57.png"';}
+						echo 'src="images/y_' . $_SESSION['hex'][61] . '_bevel.png"';
+					} else { echo 'src="images/hex_green_50_by_57_bevel.png"';}
 				?>
 				>
 				</div>

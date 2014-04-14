@@ -1,4 +1,4 @@
-connect_game
+hex_connect
 ============
 
 The Connection Game - Explore a range of connected subjects/nodes on a hexagonal grid.
@@ -9,7 +9,8 @@ Before deploying on a live server, it is recommended that you experiment with th
 locally hosted server like MAMP or WAMP.
 
 DEPLOYMENT:
-To deploy, copy all files EXCEPT FOR SUBMIT.PHP and ADMIN.PHP into a folder of your choice.
+Update the connection.php file so that it shows the correct host, user, and password for your server.
+Copy all files EXCEPT FOR SUBMIT.PHP and ADMIN.PHP into a folder of your choice.
 The admin.php file should only be used locally to add items (nodes and connections) into the database.
 All other changes to the database should be done directly through MySQL Workbench
 or through your preferred database management system.
