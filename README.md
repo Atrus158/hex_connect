@@ -31,6 +31,6 @@ and formatting their own entries that you would probably reformat anyway.
 Making submissions to the database via the submit.php page assigns a pending status of "0" to the entries in the database.
 This has been known to make the program hang and should be avoided.
 
-Please contact me with any additional questions at basdude@aol.com.
+Please contact me with any additional questions at brcsmith7@gmail.com.
 
 
